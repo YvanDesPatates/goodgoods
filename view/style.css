@@ -1,0 +1,77 @@
+
+/* ENTETE*/
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.session {
+    size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkseagreen;
+    font-size: 100%;
+}
+
+.session>a {
+    margin: 20px;
+}
+
+.nom_site {
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+
+    margin: 20px;
+}
+
+.categories {
+    font-size: 120%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+/* PRODUITS */
+.cadre{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    align-content: space-around;
+}
+
+.produit{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+/* PANIER */
+
+.tabPanier{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.produitPanier{
+    width: 50%;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align:right;
+    padding-right:1em;
+}
